@@ -1,0 +1,3680 @@
+{
+  "summary": {
+    "bm25": {
+      "recall@1": 0.2401,
+      "recall@3": 0.3869,
+      "recall@5": 0.4266,
+      "recall@10": 0.4472,
+      "mrr": 0.3998
+    },
+    "dense": {
+      "recall@1": 0.125,
+      "recall@3": 0.2766,
+      "recall@5": 0.3421,
+      "recall@10": 0.4532,
+      "mrr": 0.3246
+    },
+    "hybrid": {
+      "recall@1": 0.1687,
+      "recall@3": 0.3044,
+      "recall@5": 0.3679,
+      "recall@10": 0.4611,
+      "mrr": 0.3581
+    },
+    "hybrid_rerank": {
+      "recall@1": 0.3671,
+      "recall@3": 0.4583,
+      "recall@5": 0.5187,
+      "recall@10": 0.6139,
+      "mrr": 0.5485
+    }
+  },
+  "per_question": [
+    {
+      "id": "q001",
+      "category": "factual",
+      "difficulty": "easy",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0002",
+        "nvidia_10k_fy2026__chunk0286"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.02631578947368421,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0114",
+            "nvidia_10k_fy2026__chunk0381",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0187",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0022",
+            "nvidia_10k_fy2026__chunk0107",
+            "nvidia_10k_fy2026__chunk0037"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.5,
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0065",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0066",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0261"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.09090909090909091,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0065",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0066",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0187",
+            "nvidia_10k_fy2026__chunk0022",
+            "nvidia_10k_fy2026__chunk0013"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.5,
+          "recall@3": 0.5,
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0357",
+            "nvidia_10k_fy2026__chunk0022",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0288",
+            "nvidia_10k_fy2026__chunk0066"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q002",
+      "category": "factual",
+      "difficulty": "easy",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0002",
+        "nvidia_10k_fy2026__chunk0286"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0625,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0236",
+            "nvidia_10k_fy2026__chunk0371",
+            "nvidia_10k_fy2026__chunk0187",
+            "nvidia_10k_fy2026__chunk0367",
+            "nvidia_10k_fy2026__chunk0366",
+            "nvidia_10k_fy2026__chunk0157",
+            "nvidia_10k_fy2026__chunk0065",
+            "nvidia_10k_fy2026__chunk0211",
+            "nvidia_10k_fy2026__chunk0299",
+            "nvidia_10k_fy2026__chunk0066"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.5,
+          "recall@3": 0.5,
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0358",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0390",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0066",
+            "nvidia_10k_fy2026__chunk0361"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.5,
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0065",
+            "nvidia_10k_fy2026__chunk0066",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0361",
+            "nvidia_10k_fy2026__chunk0392",
+            "nvidia_10k_fy2026__chunk0157"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.5,
+          "recall@3": 0.5,
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0357",
+            "nvidia_10k_fy2026__chunk0264",
+            "nvidia_10k_fy2026__chunk0390",
+            "nvidia_10k_fy2026__chunk0361",
+            "nvidia_10k_fy2026__chunk0358",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0288"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q003",
+      "category": "factual",
+      "difficulty": "easy",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0060"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0026",
+            "nvidia_10k_fy2026__chunk0243",
+            "nvidia_10k_fy2026__chunk0334",
+            "nvidia_10k_fy2026__chunk0028",
+            "nvidia_10k_fy2026__chunk0236",
+            "nvidia_10k_fy2026__chunk0325",
+            "nvidia_10k_fy2026__chunk0241",
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0252"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.14285714285714285,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0340",
+            "nvidia_10k_fy2026__chunk0065"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0028",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0026",
+            "nvidia_10k_fy2026__chunk0325",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0066",
+            "nvidia_10k_fy2026__chunk0065",
+            "nvidia_10k_fy2026__chunk0017"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0325",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0026",
+            "nvidia_10k_fy2026__chunk0028",
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0017",
+            "nvidia_10k_fy2026__chunk0340",
+            "nvidia_10k_fy2026__chunk0241"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q004",
+      "category": "factual",
+      "difficulty": "easy",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0060"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0325",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0025",
+            "nvidia_10k_fy2026__chunk0165",
+            "nvidia_10k_fy2026__chunk0138",
+            "nvidia_10k_fy2026__chunk0323",
+            "nvidia_10k_fy2026__chunk0010",
+            "nvidia_10k_fy2026__chunk0115",
+            "nvidia_10k_fy2026__chunk0088"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.038461538461538464,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0065",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0066",
+            "nvidia_10k_fy2026__chunk0016",
+            "nvidia_10k_fy2026__chunk0019",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0064"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.25,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0066",
+            "nvidia_10k_fy2026__chunk0065",
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0025",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0323",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0325"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0325",
+            "nvidia_10k_fy2026__chunk0340",
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383",
+            "nvidia_10k_fy2026__chunk0019",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0013"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q005",
+      "category": "numeric",
+      "difficulty": "easy",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0060"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0115",
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0128",
+            "nvidia_10k_fy2026__chunk0030",
+            "nvidia_10k_fy2026__chunk0017",
+            "nvidia_10k_fy2026__chunk0167",
+            "nvidia_10k_fy2026__chunk0080",
+            "nvidia_10k_fy2026__chunk0029",
+            "nvidia_10k_fy2026__chunk0227",
+            "nvidia_10k_fy2026__chunk0226"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.038461538461538464,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0019",
+            "nvidia_10k_fy2026__chunk0065",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0016",
+            "nvidia_10k_fy2026__chunk0066",
+            "nvidia_10k_fy2026__chunk0017",
+            "nvidia_10k_fy2026__chunk0217"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.25,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0017",
+            "nvidia_10k_fy2026__chunk0030",
+            "nvidia_10k_fy2026__chunk0065",
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0080",
+            "nvidia_10k_fy2026__chunk0028",
+            "nvidia_10k_fy2026__chunk0027",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0034"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0019",
+            "nvidia_10k_fy2026__chunk0017",
+            "nvidia_10k_fy2026__chunk0080",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0340",
+            "nvidia_10k_fy2026__chunk0115",
+            "nvidia_10k_fy2026__chunk0030",
+            "nvidia_10k_fy2026__chunk0016",
+            "nvidia_10k_fy2026__chunk0198"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q006",
+      "category": "factual",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0270"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0277",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0279",
+            "nvidia_10k_fy2026__chunk0275",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0066",
+            "nvidia_10k_fy2026__chunk0353"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0288",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0360",
+            "nvidia_10k_fy2026__chunk0357",
+            "nvidia_10k_fy2026__chunk0358",
+            "nvidia_10k_fy2026__chunk0012"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0066",
+            "nvidia_10k_fy2026__chunk0065",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0357"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0279",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0393",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0288",
+            "nvidia_10k_fy2026__chunk0066",
+            "nvidia_10k_fy2026__chunk0357"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q007",
+      "category": "factual",
+      "difficulty": "easy",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0218",
+        "nvidia_10k_fy2026__chunk0198",
+        "nvidia_10k_fy2026__chunk0379"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.6666666666666666,
+          "recall@5": 0.6666666666666666,
+          "recall@10": 0.6666666666666666,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0025",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0176",
+            "nvidia_10k_fy2026__chunk0236",
+            "nvidia_10k_fy2026__chunk0340"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.6666666666666666,
+          "reciprocal_rank": 0.14285714285714285,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0392",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0261",
+            "nvidia_10k_fy2026__chunk0068",
+            "nvidia_10k_fy2026__chunk0010",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0016"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.6666666666666666,
+          "recall@5": 0.6666666666666666,
+          "recall@10": 0.6666666666666666,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0392",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0340",
+            "nvidia_10k_fy2026__chunk0010",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0012"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.3333333333333333,
+          "recall@5": 0.3333333333333333,
+          "recall@10": 0.3333333333333333,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0288",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0013"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q008",
+      "category": "numeric",
+      "difficulty": "easy",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0279",
+        "nvidia_10k_fy2026__chunk0218",
+        "nvidia_10k_fy2026__chunk0204",
+        "nvidia_10k_fy2026__chunk0205",
+        "nvidia_10k_fy2026__chunk0379"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.2,
+          "reciprocal_rank": 0.125,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0367",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0196",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0332",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0327",
+            "nvidia_10k_fy2026__chunk0384"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.2,
+          "recall@5": 0.2,
+          "recall@10": 0.2,
+          "reciprocal_rank": 0.3333333333333333,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0340",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0288",
+            "nvidia_10k_fy2026__chunk0196"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.2,
+          "recall@5": 0.2,
+          "recall@10": 0.2,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0196",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0340"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.2,
+          "recall@10": 0.2,
+          "reciprocal_rank": 0.25,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383",
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0199"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q009",
+      "category": "numeric",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0218",
+        "nvidia_10k_fy2026__chunk0379"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.5,
+          "reciprocal_rank": 0.14285714285714285,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0199"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.5,
+          "recall@5": 0.5,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0219",
+            "nvidia_10k_fy2026__chunk0218",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0345"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.5,
+          "reciprocal_rank": 0.16666666666666666,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0021"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.5,
+          "reciprocal_rank": 0.125,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0126",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0218",
+            "nvidia_10k_fy2026__chunk0219",
+            "nvidia_10k_fy2026__chunk0221"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q010",
+      "category": "numeric",
+      "difficulty": "easy",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0279",
+        "nvidia_10k_fy2026__chunk0204",
+        "nvidia_10k_fy2026__chunk0280",
+        "nvidia_10k_fy2026__chunk0283",
+        "nvidia_10k_fy2026__chunk0284",
+        "nvidia_10k_fy2026__chunk0328"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.16666666666666666,
+          "reciprocal_rank": 0.1,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0367",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0229",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0236",
+            "nvidia_10k_fy2026__chunk0366",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0280"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0196",
+            "nvidia_10k_fy2026__chunk0340",
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0020"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.045454545454545456,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0196",
+            "nvidia_10k_fy2026__chunk0064"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.06666666666666667,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0026",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0028"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q011",
+      "category": "numeric",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0328",
+        "nvidia_10k_fy2026__chunk0204",
+        "nvidia_10k_fy2026__chunk0279"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.3333333333333333,
+          "recall@3": 0.6666666666666666,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0328",
+            "nvidia_10k_fy2026__chunk0301",
+            "nvidia_10k_fy2026__chunk0279",
+            "nvidia_10k_fy2026__chunk0204",
+            "nvidia_10k_fy2026__chunk0320",
+            "nvidia_10k_fy2026__chunk0329",
+            "nvidia_10k_fy2026__chunk0237",
+            "nvidia_10k_fy2026__chunk0283",
+            "nvidia_10k_fy2026__chunk0193",
+            "nvidia_10k_fy2026__chunk0191"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.3333333333333333,
+          "recall@10": 0.3333333333333333,
+          "reciprocal_rank": 0.25,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0196",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0328",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0325",
+            "nvidia_10k_fy2026__chunk0393",
+            "nvidia_10k_fy2026__chunk0323",
+            "nvidia_10k_fy2026__chunk0261",
+            "nvidia_10k_fy2026__chunk0286"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.3333333333333333,
+          "recall@3": 0.3333333333333333,
+          "recall@5": 0.3333333333333333,
+          "recall@10": 0.3333333333333333,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0328",
+            "nvidia_10k_fy2026__chunk0301",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0196",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0194",
+            "nvidia_10k_fy2026__chunk0237",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0199"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.3333333333333333,
+          "recall@3": 0.6666666666666666,
+          "recall@5": 0.6666666666666666,
+          "recall@10": 0.6666666666666666,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0328",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0279",
+            "nvidia_10k_fy2026__chunk0325",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0026",
+            "nvidia_10k_fy2026__chunk0301",
+            "nvidia_10k_fy2026__chunk0264",
+            "nvidia_10k_fy2026__chunk0286"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q012",
+      "category": "numeric",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0279",
+        "nvidia_10k_fy2026__chunk0226"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.047619047619047616,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0227",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0366",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0377",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0387",
+            "nvidia_10k_fy2026__chunk0025",
+            "nvidia_10k_fy2026__chunk0332"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.05263157894736842,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0227",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0196",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0028",
+            "nvidia_10k_fy2026__chunk0205"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.07692307692307693,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0227",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0387",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0017",
+            "nvidia_10k_fy2026__chunk0343"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.5,
+          "reciprocal_rank": 0.125,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0227",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0026",
+            "nvidia_10k_fy2026__chunk0017",
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0226",
+            "nvidia_10k_fy2026__chunk0028",
+            "nvidia_10k_fy2026__chunk0377"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q013",
+      "category": "numeric",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0218"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383",
+            "nvidia_10k_fy2026__chunk0234"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.16666666666666666,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0218",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0219",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0379"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.030303030303030304,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0221"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0625,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0126",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0217"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q014",
+      "category": "numeric",
+      "difficulty": "hard",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0345"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0355",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0338",
+            "nvidia_10k_fy2026__chunk0334",
+            "nvidia_10k_fy2026__chunk0372",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0243",
+            "nvidia_10k_fy2026__chunk0026"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.2,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0340",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0382"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0064"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0334",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0369",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q015",
+      "category": "numeric",
+      "difficulty": "hard",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0346"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0369",
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0389",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0373",
+            "nvidia_10k_fy2026__chunk0298",
+            "nvidia_10k_fy2026__chunk0388",
+            "nvidia_10k_fy2026__chunk0356"
+          ]
+        },
+        "dense": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0227",
+            "nvidia_10k_fy2026__chunk0239",
+            "nvidia_10k_fy2026__chunk0342",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0352",
+            "nvidia_10k_fy2026__chunk0341"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0369",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0389",
+            "nvidia_10k_fy2026__chunk0388",
+            "nvidia_10k_fy2026__chunk0342"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0369",
+            "nvidia_10k_fy2026__chunk0126",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0205"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q016",
+      "category": "factual",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0318"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0234",
+            "nvidia_10k_fy2026__chunk0051",
+            "nvidia_10k_fy2026__chunk0147",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0240",
+            "nvidia_10k_fy2026__chunk0357",
+            "nvidia_10k_fy2026__chunk0048",
+            "nvidia_10k_fy2026__chunk0122",
+            "nvidia_10k_fy2026__chunk0354"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0358",
+            "nvidia_10k_fy2026__chunk0390",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0066"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0357",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0028",
+            "nvidia_10k_fy2026__chunk0358",
+            "nvidia_10k_fy2026__chunk0390",
+            "nvidia_10k_fy2026__chunk0065"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0393",
+            "nvidia_10k_fy2026__chunk0234",
+            "nvidia_10k_fy2026__chunk0357",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0390",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0360",
+            "nvidia_10k_fy2026__chunk0361"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q017",
+      "category": "factual",
+      "difficulty": "hard",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0318"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.25,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0051",
+            "nvidia_10k_fy2026__chunk0147",
+            "nvidia_10k_fy2026__chunk0025",
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0181",
+            "nvidia_10k_fy2026__chunk0357",
+            "nvidia_10k_fy2026__chunk0120",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0043",
+            "nvidia_10k_fy2026__chunk0286"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.08333333333333333,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0288",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0016",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0358",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0361",
+            "nvidia_10k_fy2026__chunk0066"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0358",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0025",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0357",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0269"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0157",
+            "nvidia_10k_fy2026__chunk0288",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0323",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0361",
+            "nvidia_10k_fy2026__chunk0264"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q018",
+      "category": "numeric",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0318"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0348",
+            "nvidia_10k_fy2026__chunk0314",
+            "nvidia_10k_fy2026__chunk0311",
+            "nvidia_10k_fy2026__chunk0246",
+            "nvidia_10k_fy2026__chunk0347",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0234",
+            "nvidia_10k_fy2026__chunk0252"
+          ]
+        },
+        "dense": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0314",
+            "nvidia_10k_fy2026__chunk0284",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0350",
+            "nvidia_10k_fy2026__chunk0326",
+            "nvidia_10k_fy2026__chunk0194",
+            "nvidia_10k_fy2026__chunk0225",
+            "nvidia_10k_fy2026__chunk0348"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0314",
+            "nvidia_10k_fy2026__chunk0348",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0311",
+            "nvidia_10k_fy2026__chunk0246",
+            "nvidia_10k_fy2026__chunk0234",
+            "nvidia_10k_fy2026__chunk0289",
+            "nvidia_10k_fy2026__chunk0352"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0314",
+            "nvidia_10k_fy2026__chunk0284",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0234",
+            "nvidia_10k_fy2026__chunk0281",
+            "nvidia_10k_fy2026__chunk0246",
+            "nvidia_10k_fy2026__chunk0348",
+            "nvidia_10k_fy2026__chunk0385"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q019",
+      "category": "numeric",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0318"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0312",
+            "nvidia_10k_fy2026__chunk0313",
+            "nvidia_10k_fy2026__chunk0314",
+            "nvidia_10k_fy2026__chunk0305",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0310",
+            "nvidia_10k_fy2026__chunk0016",
+            "nvidia_10k_fy2026__chunk0317",
+            "nvidia_10k_fy2026__chunk0315"
+          ]
+        },
+        "dense": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0312",
+            "nvidia_10k_fy2026__chunk0331",
+            "nvidia_10k_fy2026__chunk0314",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0315",
+            "nvidia_10k_fy2026__chunk0284",
+            "nvidia_10k_fy2026__chunk0203",
+            "nvidia_10k_fy2026__chunk0338"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0312",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0314",
+            "nvidia_10k_fy2026__chunk0315",
+            "nvidia_10k_fy2026__chunk0331",
+            "nvidia_10k_fy2026__chunk0350",
+            "nvidia_10k_fy2026__chunk0295",
+            "nvidia_10k_fy2026__chunk0348",
+            "nvidia_10k_fy2026__chunk0338"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0331",
+            "nvidia_10k_fy2026__chunk0312",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0332",
+            "nvidia_10k_fy2026__chunk0234",
+            "nvidia_10k_fy2026__chunk0313",
+            "nvidia_10k_fy2026__chunk0284",
+            "nvidia_10k_fy2026__chunk0314",
+            "nvidia_10k_fy2026__chunk0305"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q020",
+      "category": "multi_hop",
+      "difficulty": "hard",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0318",
+        "nvidia_10k_fy2026__chunk0218"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.5,
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0017",
+            "nvidia_10k_fy2026__chunk0220"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.04,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0016",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0019",
+            "nvidia_10k_fy2026__chunk0023",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0022",
+            "nvidia_10k_fy2026__chunk0028"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.5,
+          "reciprocal_rank": 0.16666666666666666,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0079",
+            "nvidia_10k_fy2026__chunk0019",
+            "nvidia_10k_fy2026__chunk0022",
+            "nvidia_10k_fy2026__chunk0220"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.5,
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383",
+            "nvidia_10k_fy2026__chunk0288",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0010"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q021",
+      "category": "multi_hop",
+      "difficulty": "hard",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0279",
+        "nvidia_10k_fy2026__chunk0226"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0051",
+            "nvidia_10k_fy2026__chunk0147",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0224",
+            "nvidia_10k_fy2026__chunk0343"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.09090909090909091,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0227",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0240",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0341",
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0205"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.034482758620689655,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0332",
+            "nvidia_10k_fy2026__chunk0227",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0060"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.041666666666666664,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0332",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0206",
+            "nvidia_10k_fy2026__chunk0217"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q022",
+      "category": "multi_hop",
+      "difficulty": "hard",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0218"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0092",
+            "nvidia_10k_fy2026__chunk0382"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.2,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0218",
+            "nvidia_10k_fy2026__chunk0219",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0217"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.041666666666666664,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0384"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.07692307692307693,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0126",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q023",
+      "category": "multi_hop",
+      "difficulty": "hard",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0318",
+        "nvidia_10k_fy2026__chunk0279",
+        "nvidia_10k_fy2026__chunk0204",
+        "nvidia_10k_fy2026__chunk0328"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.25,
+          "recall@3": 0.25,
+          "recall@5": 0.25,
+          "recall@10": 0.25,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0194",
+            "nvidia_10k_fy2026__chunk0367",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0245",
+            "nvidia_10k_fy2026__chunk0369",
+            "nvidia_10k_fy2026__chunk0236",
+            "nvidia_10k_fy2026__chunk0365"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.25,
+          "recall@3": 0.25,
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0284",
+            "nvidia_10k_fy2026__chunk0280",
+            "nvidia_10k_fy2026__chunk0328",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0341",
+            "nvidia_10k_fy2026__chunk0194",
+            "nvidia_10k_fy2026__chunk0335",
+            "nvidia_10k_fy2026__chunk0343"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.25,
+          "recall@3": 0.25,
+          "recall@5": 0.25,
+          "recall@10": 0.5,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0194",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0280",
+            "nvidia_10k_fy2026__chunk0328",
+            "nvidia_10k_fy2026__chunk0236",
+            "nvidia_10k_fy2026__chunk0369",
+            "nvidia_10k_fy2026__chunk0367",
+            "nvidia_10k_fy2026__chunk0346"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.25,
+          "recall@3": 0.25,
+          "recall@5": 0.25,
+          "recall@10": 0.25,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0225",
+            "nvidia_10k_fy2026__chunk0234",
+            "nvidia_10k_fy2026__chunk0334",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0241",
+            "nvidia_10k_fy2026__chunk0240",
+            "nvidia_10k_fy2026__chunk0343"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q024",
+      "category": "multi_hop",
+      "difficulty": "hard",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0198",
+        "nvidia_10k_fy2026__chunk0218"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.5,
+          "recall@3": 0.5,
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0022",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0330"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.5,
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0016",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0022",
+            "nvidia_10k_fy2026__chunk0288",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0261"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.5,
+          "recall@3": 0.5,
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0022",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0019",
+            "nvidia_10k_fy2026__chunk0028"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.5,
+          "recall@3": 0.5,
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0022",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0288",
+            "nvidia_10k_fy2026__chunk0016",
+            "nvidia_10k_fy2026__chunk0221"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q031",
+      "category": "ambiguous",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0192",
+        "nvidia_10k_fy2026__chunk0236",
+        "nvidia_10k_fy2026__chunk0376"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.09090909090909091,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0270",
+            "nvidia_10k_fy2026__chunk0193",
+            "nvidia_10k_fy2026__chunk0033",
+            "nvidia_10k_fy2026__chunk0007",
+            "nvidia_10k_fy2026__chunk0191",
+            "nvidia_10k_fy2026__chunk0051",
+            "nvidia_10k_fy2026__chunk0147",
+            "nvidia_10k_fy2026__chunk0271",
+            "nvidia_10k_fy2026__chunk0237"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.6666666666666666,
+          "recall@5": 0.6666666666666666,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0237",
+            "nvidia_10k_fy2026__chunk0376",
+            "nvidia_10k_fy2026__chunk0192",
+            "nvidia_10k_fy2026__chunk0194",
+            "nvidia_10k_fy2026__chunk0193",
+            "nvidia_10k_fy2026__chunk0236",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0240",
+            "nvidia_10k_fy2026__chunk0007",
+            "nvidia_10k_fy2026__chunk0225"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.6666666666666666,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.25,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0193",
+            "nvidia_10k_fy2026__chunk0237",
+            "nvidia_10k_fy2026__chunk0007",
+            "nvidia_10k_fy2026__chunk0192",
+            "nvidia_10k_fy2026__chunk0236",
+            "nvidia_10k_fy2026__chunk0194",
+            "nvidia_10k_fy2026__chunk0376",
+            "nvidia_10k_fy2026__chunk0195",
+            "nvidia_10k_fy2026__chunk0191",
+            "nvidia_10k_fy2026__chunk0240"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.3333333333333333,
+          "recall@3": 0.6666666666666666,
+          "recall@5": 0.6666666666666666,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0376",
+            "nvidia_10k_fy2026__chunk0192",
+            "nvidia_10k_fy2026__chunk0193",
+            "nvidia_10k_fy2026__chunk0237",
+            "nvidia_10k_fy2026__chunk0194",
+            "nvidia_10k_fy2026__chunk0236",
+            "nvidia_10k_fy2026__chunk0225",
+            "nvidia_10k_fy2026__chunk0334",
+            "nvidia_10k_fy2026__chunk0195",
+            "nvidia_10k_fy2026__chunk0240"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q032",
+      "category": "ambiguous",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0346"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.023809523809523808,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0051",
+            "nvidia_10k_fy2026__chunk0147",
+            "nvidia_10k_fy2026__chunk0304",
+            "nvidia_10k_fy2026__chunk0291",
+            "nvidia_10k_fy2026__chunk0136",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0126",
+            "nvidia_10k_fy2026__chunk0162",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0152"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0290",
+            "nvidia_10k_fy2026__chunk0291",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0381",
+            "nvidia_10k_fy2026__chunk0126",
+            "nvidia_10k_fy2026__chunk0340",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0215"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.1111111111111111,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0291",
+            "nvidia_10k_fy2026__chunk0290",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0126",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0381",
+            "nvidia_10k_fy2026__chunk0125",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0085"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0291",
+            "nvidia_10k_fy2026__chunk0126",
+            "nvidia_10k_fy2026__chunk0290",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0381",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0125",
+            "nvidia_10k_fy2026__chunk0222"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q033",
+      "category": "ambiguous",
+      "difficulty": "easy",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0060"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0114",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0038",
+            "nvidia_10k_fy2026__chunk0037",
+            "nvidia_10k_fy2026__chunk0184",
+            "nvidia_10k_fy2026__chunk0117",
+            "nvidia_10k_fy2026__chunk0015",
+            "nvidia_10k_fy2026__chunk0167",
+            "nvidia_10k_fy2026__chunk0271",
+            "nvidia_10k_fy2026__chunk0203"
+          ]
+        },
+        "dense": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0381",
+            "nvidia_10k_fy2026__chunk0187",
+            "nvidia_10k_fy2026__chunk0115",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0045",
+            "nvidia_10k_fy2026__chunk0114",
+            "nvidia_10k_fy2026__chunk0107",
+            "nvidia_10k_fy2026__chunk0037"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.07692307692307693,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0114",
+            "nvidia_10k_fy2026__chunk0037",
+            "nvidia_10k_fy2026__chunk0107",
+            "nvidia_10k_fy2026__chunk0117",
+            "nvidia_10k_fy2026__chunk0115",
+            "nvidia_10k_fy2026__chunk0167",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0128",
+            "nvidia_10k_fy2026__chunk0007",
+            "nvidia_10k_fy2026__chunk0126"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0115",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0187",
+            "nvidia_10k_fy2026__chunk0114",
+            "nvidia_10k_fy2026__chunk0381",
+            "nvidia_10k_fy2026__chunk0107",
+            "nvidia_10k_fy2026__chunk0037",
+            "nvidia_10k_fy2026__chunk0126",
+            "nvidia_10k_fy2026__chunk0340"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q034",
+      "category": "ambiguous",
+      "difficulty": "easy",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0279",
+        "nvidia_10k_fy2026__chunk0204",
+        "nvidia_10k_fy2026__chunk0280",
+        "nvidia_10k_fy2026__chunk0283",
+        "nvidia_10k_fy2026__chunk0284",
+        "nvidia_10k_fy2026__chunk0328"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0007",
+            "nvidia_10k_fy2026__chunk0231",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0202",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0367",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0276"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.16666666666666666,
+          "recall@3": 0.16666666666666666,
+          "recall@5": 0.3333333333333333,
+          "recall@10": 0.5,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0279",
+            "nvidia_10k_fy2026__chunk0281",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0284",
+            "nvidia_10k_fy2026__chunk0318",
+            "nvidia_10k_fy2026__chunk0283",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0270"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.07692307692307693,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0270",
+            "nvidia_10k_fy2026__chunk0317",
+            "nvidia_10k_fy2026__chunk0236",
+            "nvidia_10k_fy2026__chunk0196",
+            "nvidia_10k_fy2026__chunk0194",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0229"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0625,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0317",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0335",
+            "nvidia_10k_fy2026__chunk0060",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0343"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q035",
+      "category": "ambiguous",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0318"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0053",
+            "nvidia_10k_fy2026__chunk0149",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0153",
+            "nvidia_10k_fy2026__chunk0017",
+            "nvidia_10k_fy2026__chunk0032",
+            "nvidia_10k_fy2026__chunk0054",
+            "nvidia_10k_fy2026__chunk0150",
+            "nvidia_10k_fy2026__chunk0055"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0025",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0019",
+            "nvidia_10k_fy2026__chunk0032",
+            "nvidia_10k_fy2026__chunk0016",
+            "nvidia_10k_fy2026__chunk0024",
+            "nvidia_10k_fy2026__chunk0142",
+            "nvidia_10k_fy2026__chunk0022"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0032",
+            "nvidia_10k_fy2026__chunk0017",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0025",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0055",
+            "nvidia_10k_fy2026__chunk0151",
+            "nvidia_10k_fy2026__chunk0026"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0025",
+            "nvidia_10k_fy2026__chunk0017",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0026",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0136",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0142",
+            "nvidia_10k_fy2026__chunk0032",
+            "nvidia_10k_fy2026__chunk0357"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q036",
+      "category": "factual",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0071"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.045454545454545456,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0204",
+            "nvidia_10k_fy2026__chunk0011",
+            "nvidia_10k_fy2026__chunk0070",
+            "nvidia_10k_fy2026__chunk0122",
+            "nvidia_10k_fy2026__chunk0058",
+            "nvidia_10k_fy2026__chunk0102",
+            "nvidia_10k_fy2026__chunk0118",
+            "nvidia_10k_fy2026__chunk0083",
+            "nvidia_10k_fy2026__chunk0093",
+            "nvidia_10k_fy2026__chunk0025"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.04,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0112",
+            "nvidia_10k_fy2026__chunk0157",
+            "nvidia_10k_fy2026__chunk0142",
+            "nvidia_10k_fy2026__chunk0107",
+            "nvidia_10k_fy2026__chunk0016",
+            "nvidia_10k_fy2026__chunk0096",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0058",
+            "nvidia_10k_fy2026__chunk0097"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.09090909090909091,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0058",
+            "nvidia_10k_fy2026__chunk0083",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0096",
+            "nvidia_10k_fy2026__chunk0090",
+            "nvidia_10k_fy2026__chunk0041",
+            "nvidia_10k_fy2026__chunk0082",
+            "nvidia_10k_fy2026__chunk0141",
+            "nvidia_10k_fy2026__chunk0155",
+            "nvidia_10k_fy2026__chunk0198"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0070",
+            "nvidia_10k_fy2026__chunk0071",
+            "nvidia_10k_fy2026__chunk0082",
+            "nvidia_10k_fy2026__chunk0204",
+            "nvidia_10k_fy2026__chunk0136",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0157",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0096",
+            "nvidia_10k_fy2026__chunk0058"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q037",
+      "category": "factual",
+      "difficulty": "easy",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0071"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0096",
+            "nvidia_10k_fy2026__chunk0071",
+            "nvidia_10k_fy2026__chunk0110",
+            "nvidia_10k_fy2026__chunk0116",
+            "nvidia_10k_fy2026__chunk0114",
+            "nvidia_10k_fy2026__chunk0104",
+            "nvidia_10k_fy2026__chunk0166",
+            "nvidia_10k_fy2026__chunk0087",
+            "nvidia_10k_fy2026__chunk0135",
+            "nvidia_10k_fy2026__chunk0160"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0157",
+            "nvidia_10k_fy2026__chunk0096",
+            "nvidia_10k_fy2026__chunk0016",
+            "nvidia_10k_fy2026__chunk0142",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0154",
+            "nvidia_10k_fy2026__chunk0080",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.047619047619047616,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0096",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0112",
+            "nvidia_10k_fy2026__chunk0016",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0340",
+            "nvidia_10k_fy2026__chunk0110",
+            "nvidia_10k_fy2026__chunk0155"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.2,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0340",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383",
+            "nvidia_10k_fy2026__chunk0096",
+            "nvidia_10k_fy2026__chunk0071",
+            "nvidia_10k_fy2026__chunk0016",
+            "nvidia_10k_fy2026__chunk0110",
+            "nvidia_10k_fy2026__chunk0157",
+            "nvidia_10k_fy2026__chunk0024",
+            "nvidia_10k_fy2026__chunk0104"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q038",
+      "category": "factual",
+      "difficulty": "hard",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0277"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0275",
+            "nvidia_10k_fy2026__chunk0277",
+            "nvidia_10k_fy2026__chunk0207",
+            "nvidia_10k_fy2026__chunk0273",
+            "nvidia_10k_fy2026__chunk0252",
+            "nvidia_10k_fy2026__chunk0361",
+            "nvidia_10k_fy2026__chunk0278",
+            "nvidia_10k_fy2026__chunk0025",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0357"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0392",
+            "nvidia_10k_fy2026__chunk0277",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0357",
+            "nvidia_10k_fy2026__chunk0358",
+            "nvidia_10k_fy2026__chunk0340",
+            "nvidia_10k_fy2026__chunk0288",
+            "nvidia_10k_fy2026__chunk0360",
+            "nvidia_10k_fy2026__chunk0286"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0277",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0357",
+            "nvidia_10k_fy2026__chunk0361",
+            "nvidia_10k_fy2026__chunk0275",
+            "nvidia_10k_fy2026__chunk0358",
+            "nvidia_10k_fy2026__chunk0252",
+            "nvidia_10k_fy2026__chunk0360",
+            "nvidia_10k_fy2026__chunk0207",
+            "nvidia_10k_fy2026__chunk0012"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0277",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0275",
+            "nvidia_10k_fy2026__chunk0361",
+            "nvidia_10k_fy2026__chunk0360",
+            "nvidia_10k_fy2026__chunk0288",
+            "nvidia_10k_fy2026__chunk0357",
+            "nvidia_10k_fy2026__chunk0207",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0198"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q039",
+      "category": "factual",
+      "difficulty": "easy",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0218",
+        "nvidia_10k_fy2026__chunk0198",
+        "nvidia_10k_fy2026__chunk0379"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.6666666666666666,
+          "recall@5": 0.6666666666666666,
+          "recall@10": 0.6666666666666666,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0064",
+            "nvidia_10k_fy2026__chunk0176",
+            "nvidia_10k_fy2026__chunk0011",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0260",
+            "nvidia_10k_fy2026__chunk0004"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.3333333333333333,
+          "recall@3": 0.3333333333333333,
+          "recall@5": 0.3333333333333333,
+          "recall@10": 0.3333333333333333,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0009",
+            "nvidia_10k_fy2026__chunk0242",
+            "nvidia_10k_fy2026__chunk0303",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0392",
+            "nvidia_10k_fy2026__chunk0284",
+            "nvidia_10k_fy2026__chunk0247"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.3333333333333333,
+          "recall@5": 0.3333333333333333,
+          "recall@10": 0.3333333333333333,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0303",
+            "nvidia_10k_fy2026__chunk0392",
+            "nvidia_10k_fy2026__chunk0011",
+            "nvidia_10k_fy2026__chunk0006",
+            "nvidia_10k_fy2026__chunk0304",
+            "nvidia_10k_fy2026__chunk0081",
+            "nvidia_10k_fy2026__chunk0315"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.3333333333333333,
+          "recall@5": 0.3333333333333333,
+          "recall@10": 0.6666666666666666,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0021",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0378",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0303",
+            "nvidia_10k_fy2026__chunk0126",
+            "nvidia_10k_fy2026__chunk0305",
+            "nvidia_10k_fy2026__chunk0311",
+            "nvidia_10k_fy2026__chunk0198"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q040",
+      "category": "numeric",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0218"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.041666666666666664,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0205"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0219",
+            "nvidia_10k_fy2026__chunk0218",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0205"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.1111111111111111,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0379",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0219",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0218",
+            "nvidia_10k_fy2026__chunk0346"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.25,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0218",
+            "nvidia_10k_fy2026__chunk0219",
+            "nvidia_10k_fy2026__chunk0126",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0221"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q041",
+      "category": "numeric",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0279"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0224",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0330",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0367",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0318"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.03571428571428571,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0341",
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0387",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0364"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.02040816326530612,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0224",
+            "nvidia_10k_fy2026__chunk0341",
+            "nvidia_10k_fy2026__chunk0332",
+            "nvidia_10k_fy2026__chunk0367",
+            "nvidia_10k_fy2026__chunk0384"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.058823529411764705,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0224",
+            "nvidia_10k_fy2026__chunk0341",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0382"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q042",
+      "category": "numeric",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0279"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.038461538461538464,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0210",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0224",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0225",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0367",
+            "nvidia_10k_fy2026__chunk0025",
+            "nvidia_10k_fy2026__chunk0230"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0196",
+            "nvidia_10k_fy2026__chunk0340",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0020"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.02040816326530612,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0224",
+            "nvidia_10k_fy2026__chunk0196",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0199"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.07692307692307693,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0224",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0026",
+            "nvidia_10k_fy2026__chunk0028",
+            "nvidia_10k_fy2026__chunk0210"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q043",
+      "category": "numeric",
+      "difficulty": "hard",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0217"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0224",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0051",
+            "nvidia_10k_fy2026__chunk0147",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0207",
+            "nvidia_10k_fy2026__chunk0389",
+            "nvidia_10k_fy2026__chunk0345"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.125,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0341",
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0332"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0224",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0223"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.1,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0126",
+            "nvidia_10k_fy2026__chunk0224",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0217"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q044",
+      "category": "numeric",
+      "difficulty": "medium",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0279",
+        "nvidia_10k_fy2026__chunk0363",
+        "nvidia_10k_fy2026__chunk0365"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.3333333333333333,
+          "recall@10": 0.3333333333333333,
+          "reciprocal_rank": 0.25,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0366",
+            "nvidia_10k_fy2026__chunk0367",
+            "nvidia_10k_fy2026__chunk0365",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0377",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0231",
+            "nvidia_10k_fy2026__chunk0236",
+            "nvidia_10k_fy2026__chunk0374"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.03333333333333333,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0196",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0261",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0358"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.3333333333333333,
+          "reciprocal_rank": 0.1111111111111111,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0366",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0377",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0365",
+            "nvidia_10k_fy2026__chunk0367"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.3333333333333333,
+          "recall@10": 0.6666666666666666,
+          "reciprocal_rank": 0.25,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0230",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0343",
+            "nvidia_10k_fy2026__chunk0365",
+            "nvidia_10k_fy2026__chunk0366",
+            "nvidia_10k_fy2026__chunk0377",
+            "nvidia_10k_fy2026__chunk0374",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0363"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q045",
+      "category": "numeric",
+      "difficulty": "hard",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0328"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0301",
+            "nvidia_10k_fy2026__chunk0328",
+            "nvidia_10k_fy2026__chunk0329",
+            "nvidia_10k_fy2026__chunk0320",
+            "nvidia_10k_fy2026__chunk0388",
+            "nvidia_10k_fy2026__chunk0326",
+            "nvidia_10k_fy2026__chunk0279",
+            "nvidia_10k_fy2026__chunk0321",
+            "nvidia_10k_fy2026__chunk0193",
+            "nvidia_10k_fy2026__chunk0194"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.05555555555555555,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0196",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0393",
+            "nvidia_10k_fy2026__chunk0325",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0361",
+            "nvidia_10k_fy2026__chunk0340",
+            "nvidia_10k_fy2026__chunk0323"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.5,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0328",
+            "nvidia_10k_fy2026__chunk0301",
+            "nvidia_10k_fy2026__chunk0217",
+            "nvidia_10k_fy2026__chunk0325",
+            "nvidia_10k_fy2026__chunk0007",
+            "nvidia_10k_fy2026__chunk0321",
+            "nvidia_10k_fy2026__chunk0323",
+            "nvidia_10k_fy2026__chunk0329",
+            "nvidia_10k_fy2026__chunk0326"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0328",
+            "nvidia_10k_fy2026__chunk0279",
+            "nvidia_10k_fy2026__chunk0325",
+            "nvidia_10k_fy2026__chunk0388",
+            "nvidia_10k_fy2026__chunk0193",
+            "nvidia_10k_fy2026__chunk0376",
+            "nvidia_10k_fy2026__chunk0194",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0321",
+            "nvidia_10k_fy2026__chunk0192"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q047",
+      "category": "factual",
+      "difficulty": "easy",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0002"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0002",
+            "nvidia_10k_fy2026__chunk0257",
+            "nvidia_10k_fy2026__chunk0025",
+            "nvidia_10k_fy2026__chunk0003",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0065",
+            "nvidia_10k_fy2026__chunk0157",
+            "nvidia_10k_fy2026__chunk0007",
+            "nvidia_10k_fy2026__chunk0290"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0065",
+            "nvidia_10k_fy2026__chunk0261",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0392",
+            "nvidia_10k_fy2026__chunk0390",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0358"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.05263157894736842,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0065",
+            "nvidia_10k_fy2026__chunk0067",
+            "nvidia_10k_fy2026__chunk0020",
+            "nvidia_10k_fy2026__chunk0392",
+            "nvidia_10k_fy2026__chunk0063",
+            "nvidia_10k_fy2026__chunk0066",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0025",
+            "nvidia_10k_fy2026__chunk0393",
+            "nvidia_10k_fy2026__chunk0196"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 1.0,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 1.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0002",
+            "nvidia_10k_fy2026__chunk0286",
+            "nvidia_10k_fy2026__chunk0393",
+            "nvidia_10k_fy2026__chunk0357",
+            "nvidia_10k_fy2026__chunk0013",
+            "nvidia_10k_fy2026__chunk0198",
+            "nvidia_10k_fy2026__chunk0012",
+            "nvidia_10k_fy2026__chunk0390",
+            "nvidia_10k_fy2026__chunk0269",
+            "nvidia_10k_fy2026__chunk0063"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q048",
+      "category": "multi_hop",
+      "difficulty": "hard",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0218"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0227",
+            "nvidia_10k_fy2026__chunk0229",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0234",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.022222222222222223,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0223",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0345",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0381",
+            "nvidia_10k_fy2026__chunk0217"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.014492753623188406,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0346",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0227",
+            "nvidia_10k_fy2026__chunk0234",
+            "nvidia_10k_fy2026__chunk0380",
+            "nvidia_10k_fy2026__chunk0217"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.0,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0205",
+            "nvidia_10k_fy2026__chunk0382",
+            "nvidia_10k_fy2026__chunk0384",
+            "nvidia_10k_fy2026__chunk0220",
+            "nvidia_10k_fy2026__chunk0227",
+            "nvidia_10k_fy2026__chunk0126",
+            "nvidia_10k_fy2026__chunk0222",
+            "nvidia_10k_fy2026__chunk0199",
+            "nvidia_10k_fy2026__chunk0221",
+            "nvidia_10k_fy2026__chunk0383"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q050",
+      "category": "multi_hop",
+      "difficulty": "hard",
+      "relevant_chunk_ids": [
+        "nvidia_10k_fy2026__chunk0056"
+      ],
+      "methods": {
+        "bm25": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.047619047619047616,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0058",
+            "nvidia_10k_fy2026__chunk0362",
+            "nvidia_10k_fy2026__chunk0106",
+            "nvidia_10k_fy2026__chunk0059",
+            "nvidia_10k_fy2026__chunk0161",
+            "nvidia_10k_fy2026__chunk0186",
+            "nvidia_10k_fy2026__chunk0197",
+            "nvidia_10k_fy2026__chunk0157",
+            "nvidia_10k_fy2026__chunk0011",
+            "nvidia_10k_fy2026__chunk0107"
+          ]
+        },
+        "dense": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.043478260869565216,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0157",
+            "nvidia_10k_fy2026__chunk0142",
+            "nvidia_10k_fy2026__chunk0058",
+            "nvidia_10k_fy2026__chunk0154",
+            "nvidia_10k_fy2026__chunk0141",
+            "nvidia_10k_fy2026__chunk0158",
+            "nvidia_10k_fy2026__chunk0156",
+            "nvidia_10k_fy2026__chunk0161",
+            "nvidia_10k_fy2026__chunk0112",
+            "nvidia_10k_fy2026__chunk0107"
+          ]
+        },
+        "hybrid": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "reciprocal_rank": 0.07142857142857142,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0058",
+            "nvidia_10k_fy2026__chunk0157",
+            "nvidia_10k_fy2026__chunk0161",
+            "nvidia_10k_fy2026__chunk0059",
+            "nvidia_10k_fy2026__chunk0158",
+            "nvidia_10k_fy2026__chunk0107",
+            "nvidia_10k_fy2026__chunk0053",
+            "nvidia_10k_fy2026__chunk0149",
+            "nvidia_10k_fy2026__chunk0154",
+            "nvidia_10k_fy2026__chunk0049"
+          ]
+        },
+        "hybrid_rerank": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "reciprocal_rank": 0.125,
+          "top10": [
+            "nvidia_10k_fy2026__chunk0058",
+            "nvidia_10k_fy2026__chunk0158",
+            "nvidia_10k_fy2026__chunk0157",
+            "nvidia_10k_fy2026__chunk0144",
+            "nvidia_10k_fy2026__chunk0159",
+            "nvidia_10k_fy2026__chunk0142",
+            "nvidia_10k_fy2026__chunk0139",
+            "nvidia_10k_fy2026__chunk0056",
+            "nvidia_10k_fy2026__chunk0204",
+            "nvidia_10k_fy2026__chunk0143"
+          ]
+        }
+      }
+    }
+  ]
+}
