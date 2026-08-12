@@ -1,0 +1,826 @@
+{
+  "model": "qwen2.5:7b",
+  "judge_model": "qwen2.5:7b",
+  "summary": {
+    "faithfulness_own": 0.6571,
+    "faithfulness_judge": null,
+    "judge_unparseable": 0,
+    "abstention_accuracy": 0.75,
+    "over_abstention_rate": 0.1667,
+    "hallucinated_out_of_scope": 2,
+    "verdicts": {
+      "VERIFIED": 24,
+      "REJECTED": 7,
+      "ABSTAINED": 13,
+      "FLAGGED": 6
+    },
+    "totals": {
+      "answerable": 42,
+      "out_of_scope": 8,
+      "answered": 35,
+      "judged": 0
+    }
+  },
+  "per_question": [
+    {
+      "id": "q001",
+      "category": "factual",
+      "question": "Where is NVIDIA's headquarters located?",
+      "answer": "NVIDIA's headquarters is located in Santa Clara, California [S1][S2][S3].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0286",
+        "nvidia_10k_fy2026__chunk0198",
+        "nvidia_10k_fy2026__chunk0020"
+      ],
+      "seconds": 24.5
+    },
+    {
+      "id": "q002",
+      "category": "factual",
+      "question": "In which U.S. state is NVIDIA incorporated?",
+      "answer": "NVIDIA is incorporated in Delaware. [S1]",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0286",
+        "nvidia_10k_fy2026__chunk0198",
+        "nvidia_10k_fy2026__chunk0357"
+      ],
+      "seconds": 8.7
+    },
+    {
+      "id": "q003",
+      "category": "factual",
+      "question": "How many employees did NVIDIA have at the end of fiscal year 2026?",
+      "answer": "NVIDIA had approximately 42,000 employees at the end of fiscal year 2026 [S1].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0060",
+        "nvidia_10k_fy2026__chunk0342",
+        "nvidia_10k_fy2026__chunk0325"
+      ],
+      "seconds": 10.0
+    },
+    {
+      "id": "q004",
+      "category": "factual",
+      "question": "What percentage of NVIDIA's employees have technical roles?",
+      "answer": "More than 80 percent of NVIDIA's employees have technical roles [S2].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0325",
+        "nvidia_10k_fy2026__chunk0060",
+        "nvidia_10k_fy2026__chunk0340"
+      ],
+      "seconds": 8.7
+    },
+    {
+      "id": "q005",
+      "category": "numeric",
+      "question": "How many NVIDIA employees work in research and development?",
+      "answer": "Revenue was $215,938 million [S3]. I cannot answer this question based on the provided context.",
+      "verdict": "REJECTED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0060",
+        "nvidia_10k_fy2026__chunk0019",
+        "nvidia_10k_fy2026__chunk0017"
+      ],
+      "seconds": 9.4
+    },
+    {
+      "id": "q006",
+      "category": "factual",
+      "question": "Which audit firm serves as NVIDIA's auditor and since when?",
+      "answer": "I cannot answer this question based on the provided context.",
+      "verdict": "ABSTAINED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": true,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0269",
+        "nvidia_10k_fy2026__chunk0063",
+        "nvidia_10k_fy2026__chunk0064"
+      ],
+      "seconds": 7.6
+    },
+    {
+      "id": "q007",
+      "category": "factual",
+      "question": "What are NVIDIA's two reportable segments?",
+      "answer": "NVIDIA reports its business results in two segments: Compute & Networking and Graphics [S1].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0021",
+        "nvidia_10k_fy2026__chunk0198",
+        "nvidia_10k_fy2026__chunk0269"
+      ],
+      "seconds": 10.1
+    },
+    {
+      "id": "q008",
+      "category": "numeric",
+      "question": "What was NVIDIA's total revenue in fiscal year 2026 (ended January 25, 2026)?",
+      "answer": "NVIDIA's total revenue in fiscal year 2026 (ended January 25, 2026) was 100.0% of the revenue [S2]. Since the percentage is given relative to itself (100.0%), the actual revenue figure can be found directly in the table as $100,000 million [S2].",
+      "verdict": "FLAGGED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0342",
+        "nvidia_10k_fy2026__chunk0217",
+        "nvidia_10k_fy2026__chunk0281"
+      ],
+      "seconds": 20.6
+    },
+    {
+      "id": "q009",
+      "category": "numeric",
+      "question": "What was the Compute & Networking segment revenue in fiscal year 2026, and what was the percentage change from the prior year?",
+      "answer": "The Compute & Networking segment revenue in fiscal year 2026 was $130,141 million [S1]. The percentage change from the prior year was 57% [S1][S2].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0219",
+        "nvidia_10k_fy2026__chunk0218",
+        "nvidia_10k_fy2026__chunk0382"
+      ],
+      "seconds": 12.9
+    },
+    {
+      "id": "q010",
+      "category": "numeric",
+      "question": "What was NVIDIA's net income in fiscal year 2026?",
+      "answer": "NVIDIA's net income for the fiscal year ended January 25, 2026, was 55.6% of revenue [S2].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0281",
+        "nvidia_10k_fy2026__chunk0217",
+        "nvidia_10k_fy2026__chunk0342"
+      ],
+      "seconds": 13.7
+    },
+    {
+      "id": "q011",
+      "category": "numeric",
+      "question": "What was NVIDIA's diluted earnings per share (diluted EPS) in fiscal year 2026?",
+      "answer": "NVIDIA's diluted earnings per share (diluted EPS) in fiscal year 2026 was $4.90 [S1].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0204",
+        "nvidia_10k_fy2026__chunk0196",
+        "nvidia_10k_fy2026__chunk0281"
+      ],
+      "seconds": 13.5
+    },
+    {
+      "id": "q012",
+      "category": "numeric",
+      "question": "What was NVIDIA's research and development (R&D) expense in fiscal year 2026?",
+      "answer": "NVIDIA's research and development expense in fiscal year 2026 was $18,497 million [S2].",
+      "verdict": "FLAGGED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0227",
+        "nvidia_10k_fy2026__chunk0226",
+        "nvidia_10k_fy2026__chunk0342"
+      ],
+      "seconds": 13.5
+    },
+    {
+      "id": "q013",
+      "category": "numeric",
+      "question": "By what percentage did the Graphics segment revenue grow between fiscal year 2025 and fiscal year 2026?",
+      "answer": "The Graphics segment revenue grew by 80% between fiscal year 2025 and fiscal year 2026 [S2].",
+      "verdict": "FLAGGED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0205",
+        "nvidia_10k_fy2026__chunk0219",
+        "nvidia_10k_fy2026__chunk0218"
+      ],
+      "seconds": 18.7
+    },
+    {
+      "id": "q014",
+      "category": "numeric",
+      "question": "What was NVIDIA's deferred revenue balance at the beginning and at the end of fiscal year 2026?",
+      "answer": "The deferred revenue balance at the beginning of fiscal year 2026 for NVIDIA was $1,813 million [S1]. The deferred revenue balance at the end of fiscal year 2026 was $2,572 million [S1].",
+      "verdict": "FLAGGED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0345",
+        "nvidia_10k_fy2026__chunk0342",
+        "nvidia_10k_fy2026__chunk0346"
+      ],
+      "seconds": 20.0
+    },
+    {
+      "id": "q015",
+      "category": "numeric",
+      "question": "What amount of customer advances is included in the deferred revenue additions for fiscal year 2026?",
+      "answer": "The amount of customer advances included in the deferred revenue additions for fiscal year 2026 is $9.0 billion [S1].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0346",
+        "nvidia_10k_fy2026__chunk0345",
+        "nvidia_10k_fy2026__chunk0343"
+      ],
+      "seconds": 13.2
+    },
+    {
+      "id": "q016",
+      "category": "factual",
+      "question": "In which month and year did NVIDIA sign the license agreement with Groq?",
+      "answer": "The license agreement with Groq was entered into in December 2025 [S1].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0318",
+        "nvidia_10k_fy2026__chunk0393",
+        "nvidia_10k_fy2026__chunk0390"
+      ],
+      "seconds": 15.7
+    },
+    {
+      "id": "q017",
+      "category": "factual",
+      "question": "What exactly did NVIDIA acquire in the Groq deal — did it buy the company, products, or something else?",
+      "answer": "NVIDIA acquired certain technology and hired employees from Groq but did not purchase customer contracts, existing products, or equity interests. [S1]",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0318",
+        "nvidia_10k_fy2026__chunk0286",
+        "nvidia_10k_fy2026__chunk0198"
+      ],
+      "seconds": 15.4
+    },
+    {
+      "id": "q018",
+      "category": "numeric",
+      "question": "How much goodwill was recorded in the Groq deal?",
+      "answer": "Goodwill recorded in the Groq deal was $14.4 billion [S1].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0318",
+        "nvidia_10k_fy2026__chunk0330",
+        "nvidia_10k_fy2026__chunk0314"
+      ],
+      "seconds": 14.5
+    },
+    {
+      "id": "q019",
+      "category": "numeric",
+      "question": "What was the value of the developed technology intangible asset recognized in the Groq deal?",
+      "answer": "The value of the developed technology intangible asset recognized in the Groq deal was $2.5 billion [S1].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0318",
+        "nvidia_10k_fy2026__chunk0312",
+        "nvidia_10k_fy2026__chunk0331"
+      ],
+      "seconds": 13.5
+    },
+    {
+      "id": "q020",
+      "category": "multi_hop",
+      "question": "Combining the information from Note 2 (Groq) with the reportable segments: which of NVIDIA's two segments (Compute & Networking or Graphics) is the Groq deal most likely to impact, given that Groq is an AI inference chip company?",
+      "answer": "I cannot answer this question based on the provided context. [S1][S2][S3]",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0198",
+        "nvidia_10k_fy2026__chunk0021",
+        "nvidia_10k_fy2026__chunk0379"
+      ],
+      "seconds": 20.1
+    },
+    {
+      "id": "q021",
+      "category": "multi_hop",
+      "question": "Cross-referencing the total revenue and R&D expense figures for fiscal year 2026, approximately what percentage of revenue was invested in R&D?",
+      "answer": "I cannot answer this question based on the provided context.",
+      "verdict": "ABSTAINED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": true,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0205",
+        "nvidia_10k_fy2026__chunk0230",
+        "nvidia_10k_fy2026__chunk0382"
+      ],
+      "seconds": 11.4
+    },
+    {
+      "id": "q022",
+      "category": "multi_hop",
+      "question": "Comparing the percentage growth of the two segments in fiscal year 2026, which grew faster in percentage terms, Compute & Networking or Graphics, despite having a much larger revenue base?",
+      "answer": "Compute & Networking grew faster in percentage terms compared to Graphics. The percentage growth for Compute & Networking was 67% [S3], while the percentage growth for Graphics was 57% [S3]. Despite Compute & Networking having a much larger revenue base, its percentage growth exceeded that of the Graphics segment.",
+      "verdict": "REJECTED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0220",
+        "nvidia_10k_fy2026__chunk0219",
+        "nvidia_10k_fy2026__chunk0218"
+      ],
+      "seconds": 24.1
+    },
+    {
+      "id": "q023",
+      "category": "multi_hop",
+      "question": "Considering the goodwill from the Groq deal ($14.4 billion) relative to the total net income for fiscal year 2026, approximately what fraction of annual net income would that amount represent?",
+      "answer": "I cannot answer this question based on the provided context.",
+      "verdict": "ABSTAINED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": true,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0318",
+        "nvidia_10k_fy2026__chunk0330",
+        "nvidia_10k_fy2026__chunk0230"
+      ],
+      "seconds": 10.5
+    },
+    {
+      "id": "q024",
+      "category": "multi_hop",
+      "question": "Linking the company description in the Overview section with the reportable segments: NVIDIA describes itself as focused on how many and which computationally intensive areas, and is that consistent with having only two reportable segments (Compute & Networking and Graphics)?",
+      "answer": "NVIDIA describes itself as focusing on several computationally intensive areas including scientific computing, AI, data science, autonomous vehicles, robotics, and digital twin applications [S1]. This aligns with the reportable segments of \"Compute & Networking\" and \"Graphics,\" which together encompass a broad range of computational needs. The Compute & Networking segment likely includes infrastructure for data centers and networking that support these areas, while the Graphics segment covers traditional and advanced graphics processing as well as related applications [S3]. Thus, it is consistent with having only two reportable segments to cover such diverse fields through specialized platforms [S1][S3].",
+      "verdict": "REJECTED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0198",
+        "nvidia_10k_fy2026__chunk0013",
+        "nvidia_10k_fy2026__chunk0022"
+      ],
+      "seconds": 43.7
+    },
+    {
+      "id": "q025",
+      "category": "out_of_scope",
+      "question": "What was NVIDIA's revenue in fiscal year 2019?",
+      "answer": "I cannot answer this question based on the provided context.",
+      "verdict": "ABSTAINED",
+      "judge": null,
+      "expected_abstention": true,
+      "abstained": true,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0199",
+        "nvidia_10k_fy2026__chunk0221",
+        "nvidia_10k_fy2026__chunk0383"
+      ],
+      "seconds": 11.1
+    },
+    {
+      "id": "q026",
+      "category": "out_of_scope",
+      "question": "How many active patents does NVIDIA currently hold worldwide?",
+      "answer": "I cannot answer this question based on the provided context.",
+      "verdict": "ABSTAINED",
+      "judge": null,
+      "expected_abstention": true,
+      "abstained": true,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0281",
+        "nvidia_10k_fy2026__chunk0198",
+        "nvidia_10k_fy2026__chunk0065"
+      ],
+      "seconds": 11.0
+    },
+    {
+      "id": "q027",
+      "category": "out_of_scope",
+      "question": "What is the annual salary of NVIDIA's CEO?",
+      "answer": "I cannot answer this question based on the provided context.",
+      "verdict": "ABSTAINED",
+      "judge": null,
+      "expected_abstention": true,
+      "abstained": true,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0063",
+        "nvidia_10k_fy2026__chunk0281",
+        "nvidia_10k_fy2026__chunk0062"
+      ],
+      "seconds": 14.1
+    },
+    {
+      "id": "q028",
+      "category": "out_of_scope",
+      "question": "How many NVIDIA shares were sold by insiders in the last quarter?",
+      "answer": "I cannot answer this question based on the provided context.",
+      "verdict": "ABSTAINED",
+      "judge": null,
+      "expected_abstention": true,
+      "abstained": true,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0281",
+        "nvidia_10k_fy2026__chunk0325",
+        "nvidia_10k_fy2026__chunk0196"
+      ],
+      "seconds": 15.0
+    },
+    {
+      "id": "q029",
+      "category": "out_of_scope",
+      "question": "What was NVIDIA's market share in the automotive GPU market in 2026?",
+      "answer": "I cannot answer this question based on the provided context.",
+      "verdict": "ABSTAINED",
+      "judge": null,
+      "expected_abstention": true,
+      "abstained": true,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0196",
+        "nvidia_10k_fy2026__chunk0017",
+        "nvidia_10k_fy2026__chunk0028"
+      ],
+      "seconds": 12.8
+    },
+    {
+      "id": "q030",
+      "category": "out_of_scope",
+      "question": "What agreement did NVIDIA sign with OpenAI in 2026?",
+      "answer": "We expect to continue investing in our ecosystem and are finalizing an investment and partnership agreement with OpenAI. There is no assurance that we will enter into an investment and partnership agreement with OpenAI or that a transaction will be completed. Refer to Item 1A. Risk Factors for additional information regarding our investments. [S2]",
+      "verdict": "REJECTED",
+      "judge": null,
+      "expected_abstention": true,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0393",
+        "nvidia_10k_fy2026__chunk0240",
+        "nvidia_10k_fy2026__chunk0390"
+      ],
+      "seconds": 33.4
+    },
+    {
+      "id": "q031",
+      "category": "ambiguous",
+      "question": "How much did the company spend buying back its own shares (buyback) in fiscal year 2026?",
+      "answer": "The company spent $40.4 billion on share buybacks in fiscal year 2026 [S1][S2].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0376",
+        "nvidia_10k_fy2026__chunk0192",
+        "nvidia_10k_fy2026__chunk0237"
+      ],
+      "seconds": 26.8
+    },
+    {
+      "id": "q032",
+      "category": "ambiguous",
+      "question": "How much money did the company receive from customers in advance, before recognizing the revenue?",
+      "answer": "The company received $12.6 billion from customer advances before recognizing the revenue, which includes $9.0 billion for fiscal year 2026 and $3.6 billion for fiscal year 2025 [S1][S2].",
+      "verdict": "FLAGGED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0346",
+        "nvidia_10k_fy2026__chunk0345",
+        "nvidia_10k_fy2026__chunk0291"
+      ],
+      "seconds": 28.6
+    },
+    {
+      "id": "q033",
+      "category": "ambiguous",
+      "question": "How many people work for the company and where are they located?",
+      "answer": "As of the end of fiscal year 2026, the company had approximately 42,000 employees in 38 countries [S1].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0060",
+        "nvidia_10k_fy2026__chunk0115",
+        "nvidia_10k_fy2026__chunk0223"
+      ],
+      "seconds": 22.3
+    },
+    {
+      "id": "q034",
+      "category": "ambiguous",
+      "question": "What was the company's bottom line in the most recent fiscal year reported?",
+      "answer": "The company's bottom line, or net income, for the most recent fiscal year ended January 25, 2026, was $120,067 million [S2].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0001",
+        "nvidia_10k_fy2026__chunk0279",
+        "nvidia_10k_fy2026__chunk0217"
+      ],
+      "seconds": 33.3
+    },
+    {
+      "id": "q035",
+      "category": "ambiguous",
+      "question": "Which AI chip business did NVIDIA recently absorb through a licensing deal?",
+      "answer": "I cannot answer this question based on the provided context.",
+      "verdict": "ABSTAINED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": true,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0025",
+        "nvidia_10k_fy2026__chunk0017",
+        "nvidia_10k_fy2026__chunk0198"
+      ],
+      "seconds": 17.8
+    },
+    {
+      "id": "q036",
+      "category": "factual",
+      "question": "What does NVIDIA identify as one of the biggest risks related to its supply chain and manufacturing?",
+      "answer": "NVIDIA identifies long manufacturing lead times and uncertain supply and capacity availability, combined with a failure to estimate customer demand accurately, as risks that could lead to mismatches between supply and demand [S2][S3].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0070",
+        "nvidia_10k_fy2026__chunk0071",
+        "nvidia_10k_fy2026__chunk0082"
+      ],
+      "seconds": 24.5
+    },
+    {
+      "id": "q037",
+      "category": "factual",
+      "question": "Does NVIDIA depend on third-party suppliers to manufacture its products?",
+      "answer": "I cannot answer this question based on the provided context.",
+      "verdict": "ABSTAINED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": true,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0340",
+        "nvidia_10k_fy2026__chunk0221",
+        "nvidia_10k_fy2026__chunk0383"
+      ],
+      "seconds": 18.1
+    },
+    {
+      "id": "q038",
+      "category": "factual",
+      "question": "What is considered a 'critical audit matter' related to inventory in NVIDIA's financial statements?",
+      "answer": "The critical audit matter related to inventory at NVIDIA involves the valuation of inventories, specifically the provisions for excess or obsolete inventories and excess product purchase commitments. This is due to the significant judgment by management when developing these provisions, including assumptions related to future demand and market conditions, which led to substantial auditor judgment, subjectivity, and effort in performing procedures and evaluating management's assumptions. [S1]",
+      "verdict": "REJECTED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0277",
+        "nvidia_10k_fy2026__chunk0269",
+        "nvidia_10k_fy2026__chunk0275"
+      ],
+      "seconds": 38.2
+    },
+    {
+      "id": "q039",
+      "category": "factual",
+      "question": "What are the two business segments mentioned in the 'Reportable Segments' section?",
+      "answer": "The two business segments mentioned in the 'Reportable Segments' section are Compute & Networking and Graphics [S1].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0021",
+        "nvidia_10k_fy2026__chunk0219",
+        "nvidia_10k_fy2026__chunk0379"
+      ],
+      "seconds": 21.9
+    },
+    {
+      "id": "q040",
+      "category": "numeric",
+      "question": "What was the dollar change (not percentage) in Compute & Networking segment revenue between fiscal year 2025 and fiscal year 2026?",
+      "answer": "The dollar change in Compute & Networking segment revenue between fiscal year 2025 and fiscal year 2026 was $47,266 million [S1].",
+      "verdict": "FLAGGED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0219",
+        "nvidia_10k_fy2026__chunk0218",
+        "nvidia_10k_fy2026__chunk0382"
+      ],
+      "seconds": 26.7
+    },
+    {
+      "id": "q041",
+      "category": "numeric",
+      "question": "What was the total cost of revenue in fiscal year 2026?",
+      "answer": "I cannot answer this question based on the provided context.",
+      "verdict": "ABSTAINED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": true,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0205",
+        "nvidia_10k_fy2026__chunk0224",
+        "nvidia_10k_fy2026__chunk0343"
+      ],
+      "seconds": 19.6
+    },
+    {
+      "id": "q042",
+      "category": "numeric",
+      "question": "What was NVIDIA's gross profit in fiscal year 2026?",
+      "answer": "NVIDIA's gross profit in fiscal year 2026 was 71.1% [S1].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0217",
+        "nvidia_10k_fy2026__chunk0342",
+        "nvidia_10k_fy2026__chunk0199"
+      ],
+      "seconds": 24.5
+    },
+    {
+      "id": "q043",
+      "category": "numeric",
+      "question": "What percentage of revenue did cost of revenue represent in fiscal year 2026, according to the percentage-of-revenue table in the MD&A?",
+      "answer": "I cannot answer this question based on the provided context.",
+      "verdict": "ABSTAINED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": true,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0205",
+        "nvidia_10k_fy2026__chunk0384",
+        "nvidia_10k_fy2026__chunk0382"
+      ],
+      "seconds": 18.3
+    },
+    {
+      "id": "q044",
+      "category": "numeric",
+      "question": "What was NVIDIA's income tax expense in fiscal year 2026?",
+      "answer": "Income tax expense was $21.4 billion in fiscal year 2026 [S1].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0230",
+        "nvidia_10k_fy2026__chunk0342",
+        "nvidia_10k_fy2026__chunk0217"
+      ],
+      "seconds": 22.8
+    },
+    {
+      "id": "q045",
+      "category": "numeric",
+      "question": "How many diluted weighted average shares outstanding did NVIDIA have in fiscal year 2026?",
+      "answer": "The diluted weighted average shares outstanding for NVIDIA Corporation in fiscal year 2026 were 24,514 [S2].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0281",
+        "nvidia_10k_fy2026__chunk0328",
+        "nvidia_10k_fy2026__chunk0196"
+      ],
+      "seconds": 26.8
+    },
+    {
+      "id": "q046",
+      "category": "out_of_scope",
+      "question": "In which city and year was NVIDIA founded, according to the corporate information in the document?",
+      "answer": "NVIDIA was incorporated in Santa Clara, California in April 1993 [S1].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": true,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0286",
+        "nvidia_10k_fy2026__chunk0198",
+        "nvidia_10k_fy2026__chunk0063"
+      ],
+      "seconds": 25.6
+    },
+    {
+      "id": "q047",
+      "category": "factual",
+      "question": "What is NVIDIA's I.R.S. Employer Identification Number?",
+      "answer": "NVIDIA's I.R.S. Employer Identification Number is 94-3177549 [S1].",
+      "verdict": "VERIFIED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0002",
+        "nvidia_10k_fy2026__chunk0286",
+        "nvidia_10k_fy2026__chunk0357"
+      ],
+      "seconds": 24.0
+    },
+    {
+      "id": "q048",
+      "category": "multi_hop",
+      "question": "The 65% growth in total revenue in fiscal year 2026 was driven primarily by which segment, and is that conclusion supported by the dollar figures (not just percentages)?",
+      "answer": "The 65% growth in total revenue in fiscal year 2026 was driven primarily by the Data Center segment. This can be seen from the fact that Data Center revenue grew 68%, which is higher than the overall 65% increase [S1]. Additionally, Compute & Networking revenue, a significant part of the Data Center segment, increased by 59% [S3], further supporting this conclusion.\n\nI cannot answer this question based on the provided context.",
+      "verdict": "REJECTED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0205",
+        "nvidia_10k_fy2026__chunk0382",
+        "nvidia_10k_fy2026__chunk0220"
+      ],
+      "seconds": 40.7
+    },
+    {
+      "id": "q049",
+      "category": "out_of_scope",
+      "question": "Does the document discuss any specific partnership with Cerebras Systems?",
+      "answer": "I cannot answer this question based on the provided context.",
+      "verdict": "ABSTAINED",
+      "judge": null,
+      "expected_abstention": true,
+      "abstained": true,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0126",
+        "nvidia_10k_fy2026__chunk0024",
+        "nvidia_10k_fy2026__chunk0122"
+      ],
+      "seconds": 18.2
+    },
+    {
+      "id": "q050",
+      "category": "multi_hop",
+      "question": "Cross-referencing the product risks described in the Risk Factors with the Government Regulations section: how do the export controls mentioned in the regulatory risks connect with the impact on NVIDIA's competitive position described in the Government Regulations section?",
+      "answer": "Export controls mentioned in the Risk Factors [S3] have a direct connection to the impact on NVIDIA’s competitive position as discussed in the Government Regulations section [S1]. Specifically, export controls may encourage customers outside China and other impacted regions to design-out certain U.S. semiconductors from their products to reduce compliance burden and risk, ensuring they can serve markets worldwide [S3]. This could lead to a situation where overseas governments might request that their customers purchase from NVIDIA’s competitors rather than NVIDIA or other U.S. firms, thereby harming NVIDIA's business, market position, and financial results [S3].\n\nAdditionally, the Chinese government has encouraged customers to purchase from China-based competitors and discouraged the use of NVIDIA’s data center products due to export controls [S1]. This could further disadvantage NVIDIA in both domestic and international markets.\n\nThese factors collectively highlight how export controls can negatively impact demand for NVIDIA's products not only in China but also in other regions, thus affecting its competitive position globally.",
+      "verdict": "REJECTED",
+      "judge": null,
+      "expected_abstention": false,
+      "abstained": false,
+      "retrieved_chunks": [
+        "nvidia_10k_fy2026__chunk0058",
+        "nvidia_10k_fy2026__chunk0158",
+        "nvidia_10k_fy2026__chunk0157"
+      ],
+      "seconds": 73.1
+    }
+  ]
+}
